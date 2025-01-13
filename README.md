@@ -1,6 +1,12 @@
 Credit to Cryptical Coder
+
+
 but I included FramerMotion and Text Animation, also Changed Header code(Navbar)
-Here is the tutorial
+
+
+Here is the tutorial of this portfolio from Cryptical Coder
+
+
 https://www.youtube.com/watch?v=3aCoZudPEKE&t=10521s
 
 # React + Vite
