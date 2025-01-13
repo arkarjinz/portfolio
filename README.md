@@ -1,5 +1,5 @@
 Credit to Cryptical Coder
-but I included FramerMotion 
+but I included FramerMotion and Text Animation, also Changed Header code(Navbar)
 Here is the tutorial
 https://www.youtube.com/watch?v=3aCoZudPEKE&t=10521s
 
