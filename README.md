@@ -1,3 +1,8 @@
+Credit to Cryptical Coder
+but I included FramerMotion 
+Here is the tutorial
+https://www.youtube.com/watch?v=3aCoZudPEKE&t=10521s
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
