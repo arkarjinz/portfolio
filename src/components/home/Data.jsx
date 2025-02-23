@@ -25,7 +25,7 @@ const Data = () => {
                 cursor={false}
                 repeatDelay={3000}
             />
-                <img src="/src/assets/space.svg" alt="Space"/>
+                <img src="/space.svg" alt="Space"/>
             </h1>
 
             <h3 className="home__subtitle">

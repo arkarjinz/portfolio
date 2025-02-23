@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react'
 import {projectsData} from "./Data.jsx";
 import {projectsNav} from "./Data.jsx";
 import ProjectsItems from "./ProjectsItems.jsx";
+import {motion} from "framer-motion";
+import {fadeIn} from "../../variant.jsx";
 
 const Projects = () => {
     const [item, setItem] = useState({name: 'all'});
@@ -26,7 +28,9 @@ const Projects = () => {
     }
 
     return (
-        <div>
+        <motion.div variants={fadeIn('down', 0.3)}
+                    initial="hidden" whileInView={'show'}
+                    viewport={{once: false, amount: 0.1}}>
                 <div className="work__filter">
                     {projectsNav.map((item, index) => {
                         return <span onClick={(e) => {handleClick(e) } } className={`${active === index ? 'active-work' : ""} work__item`} key={index}>
@@ -41,7 +45,7 @@ const Projects = () => {
                         return <ProjectsItems item={item} key={item.id}/>
                     })}
                 </div>
-        </div>
+        </motion.div>
     )
 }
 export default Projects
