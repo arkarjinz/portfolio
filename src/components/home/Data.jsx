@@ -39,7 +39,7 @@ const Data = () => {
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello&nbsp;
-                <img src="/src/assets/send.svg" alt="Send"/>
+                <img src="/send.svg" alt="Send"/>
             </a>
         </motion.div>
     )

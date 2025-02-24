@@ -29,7 +29,7 @@ const About = () => {
                         </p>
                         <a download="" href={CV} className="button button--flex">
                             Download CV&nbsp;&nbsp;
-                            <img src="/src/assets/files.svg" alt="" />
+                            <img src="/files.svg" alt="" />
                         </a>
                     </motion.div>
                 </motion.div>

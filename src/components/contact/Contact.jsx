@@ -108,7 +108,7 @@ const Contact = () => {
 
                         <button className="button button--flex">
                             Send Message&nbsp;
-                            <img src="/src/assets/send.svg" alt="Send"/>
+                            <img src="/send.svg" alt="Send"/>
                         </button>
                     </form>
                 </div>
